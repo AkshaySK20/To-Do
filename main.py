@@ -9,14 +9,16 @@ def show_item():
         item = item.strip("\n")
         row = f"{index + 1}.{item}"
         print(row)
+    print(f"Number of todos = {index+1}")
 
-    return todos #is there a need to return todos?
+    return todos, index+1 #is there a need to return todos?
 def write_item(todos):
     with open("To-Do file.txt", 'w', encoding="utf-8") as file:
         file.writelines(todos)
     return
 
 while True:
+
     user_action = input("Do you want to add, show, edit, complete or exit?: ")
     #user_action = user_action.strip()
 

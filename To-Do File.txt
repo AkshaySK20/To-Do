@@ -1,6 +1,6 @@
-Wake up ✓
-Clean the room ✓
-Make breakfast ✓
-Study ✓
-Gaming ✓
-Rest ✓
+Wake up
+Clean the room
+Make breakfast
+Study
+Gaming
+Rest
